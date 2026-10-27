@@ -1,0 +1,9 @@
+{
+  "item.ashenrealm.ashen_key": "Llave Cenicienta",
+  "item.ashenrealm.ashen_core": "Núcleo Cenizo",
+  "item.ashenrealm.ashen_blade": "Hoja del Guardián Cenizo",
+  "entity.ashenrealm.ashen_warden": "Guardián Cenizo",
+  "message.ashenrealm.no_dimension": "No se encontró el Reino Cenizo.",
+  "message.ashenrealm.boss_alive": "¡El Guardián Cenizo ya está despierto!",
+  "message.ashenrealm.boss_summoned": "El Guardián Cenizo despierta..."
+}

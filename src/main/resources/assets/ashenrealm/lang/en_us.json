@@ -1,0 +1,9 @@
+{
+  "item.ashenrealm.ashen_key": "Ashen Key",
+  "item.ashenrealm.ashen_core": "Ashen Core",
+  "item.ashenrealm.ashen_blade": "Blade of the Ashen Warden",
+  "entity.ashenrealm.ashen_warden": "Ashen Warden",
+  "message.ashenrealm.no_dimension": "The Ashen Realm could not be found.",
+  "message.ashenrealm.boss_alive": "The Ashen Warden is already awake!",
+  "message.ashenrealm.boss_summoned": "The Ashen Warden awakens..."
+}

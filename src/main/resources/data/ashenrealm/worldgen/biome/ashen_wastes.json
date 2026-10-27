@@ -1,0 +1,27 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.3,
+  "downfall": 0.0,
+  "effects": {
+    "sky_color": 1707814,
+    "fog_color": 2759480,
+    "water_color": 4927083,
+    "water_fog_color": 2758464,
+    "grass_color": 7031930,
+    "foliage_color": 7031930,
+    "particle": {
+      "options": { "type": "minecraft:ash" },
+      "probability": 0.02
+    }
+  },
+  "carvers": [],
+  "features": [[], [], [], [], [], [], [], [], [], ["ashenrealm:ruin", "ashenrealm:boss_arena"]],
+  "spawners": {
+    "monster": [
+      { "type": "minecraft:skeleton", "weight": 60, "minCount": 2, "maxCount": 4 },
+      { "type": "minecraft:zombie", "weight": 40, "minCount": 2, "maxCount": 3 },
+      { "type": "minecraft:enderman", "weight": 10, "minCount": 1, "maxCount": 2 }
+    ]
+  },
+  "spawn_costs": {}
+}

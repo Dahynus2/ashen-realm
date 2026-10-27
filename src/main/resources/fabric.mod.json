@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "ashenrealm",
+  "version": "${version}",
+  "name": "Ashen Realm",
+  "description": "Una dimensión de cenizas con ruinas, un altar y un jefe que suelta una espada única.",
+  "authors": ["Tu nombre"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.ashenrealm.AshenRealm"],
+    "client": ["com.example.ashenrealm.client.AshenRealmClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "~1.21.8",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
