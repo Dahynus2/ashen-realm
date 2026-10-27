@@ -3,7 +3,7 @@ package com.example.ashenrealm;
 import java.util.Set;
 
 import net.minecraft.block.Blocks;
-import net.minecraft.entity.PositionFlag;
+
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -59,7 +59,7 @@ public class AshenKeyItem extends Item {
         }
 
         current.spawnParticles(ParticleTypes.PORTAL, player.getX(), player.getY() + 1, player.getZ(), 40, 0.4, 0.8, 0.4, 0.3);
-        player.teleport(dest, x + 0.5, y, z + 0.5, Set.<PositionFlag>of(), player.getYaw(), player.getPitch(), true);
+           player.teleport(dest, x + 0.5, y, z + 0.5, Set.of(), player.getYaw(), player.getPitch(), true);
         dest.playSound(null, feet, SoundEvents.ENTITY_ENDERMAN_TELEPORT, SoundCategory.PLAYERS, 1.0f, 0.7f);
 
         ItemStack stack = player.getStackInHand(hand);
